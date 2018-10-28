@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeWork4</string>
+    <string name="bottom_shopping">购物</string>
+    <string name="bottom_category">分类</string>
+    <string name="bottom_news">新品预约</string>
+    <string name="bottom_cash">取现</string>
+    <string name="bottom_me">我的</string>
+</resources>

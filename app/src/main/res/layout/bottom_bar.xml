@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:clipChildren="false" >
+    <RadioGroup
+        android:id="@+id/bottom_radio_group"
+        android:orientation="horizontal"
+        android:checkedButton="@id/bottom_shopping"
+        android:background="@color/bottom_bar_bg_color"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:gravity="bottom"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/bottom_shopping"
+            android:text="@string/bottom_shopping"
+            android:textColor="@color/btn_text_color_selector"
+            android:drawableTop="@drawable/btn_shopping_selector"
+            android:button="@null"
+            android:checked="true"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/bottom_category"
+            android:text="@string/bottom_category"
+            android:textColor="@color/btn_text_color_selector"
+            android:drawableTop="@drawable/btn_category_selector"
+            android:button="@null"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/bottom_news"
+            android:text="@string/bottom_news"
+            android:textColor="@color/btn_text_color_selector"
+            android:drawableTop="@drawable/btn_news_selector"
+            android:button="@null"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/bottom_cash"
+            android:text="@string/bottom_cash"
+            android:textColor="@color/btn_text_color_selector"
+            android:drawableTop="@drawable/btn_cash_selector"
+            android:button="@null"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/bottom_me"
+            android:text="@string/bottom_me"
+            android:textColor="@color/btn_text_color_selector"
+            android:drawableTop="@drawable/btn_me_selector"
+            android:button="@null"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>
