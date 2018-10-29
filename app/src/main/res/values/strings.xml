@@ -5,4 +5,5 @@
     <string name="bottom_news">新品预约</string>
     <string name="bottom_cash">取现</string>
     <string name="bottom_me">我的</string>
+    <string name="data_loading">正在加载...</string>
 </resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+        <ImageView
+            android:id="@+id/image1"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/item1"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+        <ImageView
+            android:id="@+id/image2"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/item2"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+        <ImageView
+            android:id="@+id/image3"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/item3"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+        <ImageView
+            android:id="@+id/image4"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/item4"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+        <ImageView
+            android:id="@+id/image5"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/item5"
+            android:gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+</LinearLayout>

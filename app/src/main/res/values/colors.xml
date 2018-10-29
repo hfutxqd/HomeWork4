@@ -11,4 +11,8 @@
 
     <color name="btn_text_color">#ABABAB</color>
     <color name="btn_text_color_selected">#646464</color>
+
+    <color name="price1_color">#ff4e4f</color>
+    <color name="price2_color">#c0c0c0</color>
+
 </resources>

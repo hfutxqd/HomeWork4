@@ -45,11 +45,13 @@
             android:text="@string/bottom_news"
             android:textColor="@color/btn_text_color_selector"
             android:drawableTop="@drawable/btn_news_selector"
+            android:drawablePadding="0dp"
             android:button="@null"
             android:textSize="12sp"
+            android:layout_gravity="bottom"
             android:gravity="center"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="70dp" />
         <RadioButton
             android:layout_weight="1"
             android:id="@+id/bottom_cash"

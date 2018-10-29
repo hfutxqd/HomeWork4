@@ -7,6 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="isLightTheme">true</item>
+        <item name="android:windowBackground">@color/title_bar_bg_color</item>
     </style>
 
+    <color name="full_white">#FFFFFF</color>
 </resources>
