@@ -19,9 +19,6 @@ public class SearchActivity extends BaseActivity {
         toolbar = findViewById(R.id.toolbar);
         searchHotWord = findViewById(R.id.search_hot_word);
 
-        int paddingTop = toolbar.getPaddingTop();
-        toolbar.setPadding(toolbar.getLeft(), paddingTop + getStatusBarHeight(), toolbar.getRight(), toolbar.getBottom());
-
         String text = getIntent().getStringExtra(ARG_HINT);
         searchHotWord.setHint(text);
     }
