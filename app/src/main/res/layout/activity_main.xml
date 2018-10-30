@@ -42,6 +42,7 @@
                 <TextView
                     android:id="@+id/search_hot_word"
                     android:text="默认搜索字符串"
+                    android:background="@null"
                     android:textColor="@color/hint_color"
                     android:textSize="12sp"
                     android:layout_width="wrap_content"
